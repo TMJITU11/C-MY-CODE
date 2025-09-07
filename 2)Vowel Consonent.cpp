@@ -9,7 +9,6 @@ int main() {
 
     character = tolower(character);
 
-
     if ((character >= 'a' && character <= 'z') || (character >= 'A' && character <= 'Z')) {
 
         if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u' ||
@@ -19,8 +18,9 @@ int main() {
             cout << "The character is a consonant." << endl;
         }
     } else {
-        cout << "Not a character." << endl;
+        cout << "Not found any character." << endl;
     }
+
 
     return 0;
 }
