@@ -1,4 +1,3 @@
-//pass array to a function
 
 #include <iostream>
 using namespace std;
@@ -15,7 +14,6 @@ void input(int arr[][3], int r, int c)
     }
 }
 
-
 void displayarray(int arr[][3], int r, int c)
 {
     cout <<"the 2D array is:" <<endl;
@@ -26,7 +24,6 @@ void displayarray(int arr[][3], int r, int c)
         cout << endl;
     }
 }
-
 int main() {
     const int r = 3;
     const int c = 3;
@@ -34,6 +31,5 @@ int main() {
 
     input(arr, r,c);
     displayarray(arr,r,c);
-
     return 0;
 }
