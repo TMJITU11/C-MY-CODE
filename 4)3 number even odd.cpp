@@ -1,14 +1,9 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     int num1, num2, num3;
-
-//Jitu Copy korish na...
-
     cout << "Enter three integer numbers: ";
     cin >> num1 >> num2 >> num3;
-
 
     int smallest = num1;
     if (num2 < smallest) {
