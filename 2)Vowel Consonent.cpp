@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     char character;
 
@@ -20,8 +19,6 @@ int main() {
     } else {
         cout << "Not found any character." << endl;
     }
-
-
     return 0;
 }
 

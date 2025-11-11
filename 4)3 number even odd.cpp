@@ -4,7 +4,7 @@ int main() {
     int num1, num2, num3;
     cout << "Enter three integer numbers: ";
     cin >> num1 >> num2 >> num3;
-
+//okey
     int smallest = num1;
     if (num2 < smallest) {
         smallest = num2;
